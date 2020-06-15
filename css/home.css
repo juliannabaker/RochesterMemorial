@@ -19,6 +19,18 @@
   display: inline-block;
 }
 
+.paragraphContainerNotCenter {
+  text-align: left;
+}
+
+.paragraphNotCenter {
+  color: black;
+  font-size: 1.25em;
+  margin: 1em 4em 1em 4em;
+  width: 40em;
+  display: inline-block;
+}
+
 .largerText {
   color: black;
   font-weight: lighter;
@@ -100,6 +112,11 @@ body {
   height: 12em;
   margin: 1em 6em 0em 6em;
   padding: 1em;
+}
+
+.img {
+  float: left;
+  margin: 1em;
 }
 
 .cardDescription {
