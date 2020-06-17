@@ -1,3 +1,11 @@
+footer {
+  text-align: center;
+  padding: 3px;
+  margin-top: 1em;
+  background-color: #515154;
+  color: white;
+}
+
 .paragraphHeading {
   color: black;
   font-weight: lighter;
@@ -115,8 +123,9 @@ body {
 }
 
 .img {
-  float: left;
+  /*float: left;*/
   margin: 1em;
+  margin-bottom: 5em;
 }
 
 .cardDescription {
