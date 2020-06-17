@@ -10,6 +10,40 @@
   <!--My CSS -->
   <link rel="stylesheet" href="../css/home.css">
   <title>Rochester Memorial</title>
+  <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    </style>
 </head>
 <body>
 
@@ -47,8 +81,40 @@
 </nav>
 
 <div class="homeImg">
-  <img src="../img/doctors.jpg" alt="doctors" width="100%;">
-  <div class="centered">We Have Provided Our Patients Exceptional Care Since 1995</div>
+  <img src="../img/Contact_Us.jpg" alt="doctors" width="100%;">
+  <div class="centered">Contact US</div>
+</div>
+
+<div class="container ">
+  <form action="/#">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="emailaddress" placeholder="example@doamin.com">
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phonenumber" placeholder="(555)555-5555">
+
+    <label for="Service_Enquiry">Service Enquiry</label>
+    <select id="Service_Enquiry" name="Service_Enquiry">
+      <option value="Greater Rochester Internal Medicine">Greater Rochester Internal Medicine</option>
+      <option value="MDVIP Membership">MDVIP Membership</option>
+      <option value="Other Inquiry">Other Inquiry</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="footer">
+  <p>Author: RIT Curriculum Practice - Rochester Memorial</p>
 </div>
 
 <!-- My JavaScript -->
