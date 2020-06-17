@@ -142,3 +142,10 @@ div.containerCard {
   text-align: center;
   padding: 10px 20px;
 }
+
+.footer {
+  text-align: center;
+  padding: 35px;
+  background-color:#3B6978;
+  color: white;
+}
