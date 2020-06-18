@@ -35,7 +35,7 @@
         <li class="nav-item">
           <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/ourProviders.php">Our Providers</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/resources.php">Resources</a>
         </li>
         <li class="nav-item">
@@ -46,50 +46,18 @@
   </div>
 </nav>
 
-<div class="homeImg">
-  <img src="../img/resources_2.jpg" alt="doctors" width="100%;">
-  <div class="centered">Our Resources</div>
-</div>
-
-<div class="paragraphContainer">
-  <div class="largerText">
-    Insurances Accepted
-  </div>
-</div>
-
-<div class="paragraphContainer">
-  
-  <div class="paragraphNotCenter">
-    We would love to accept all significant commercial insurances as well as Medicare.
-    </br></br>
-    
-      <ol>Excellus and other Blue Cross Blue Shield plans</ol>
-      <ol>MVP</ol>
-      <ol>United Health</ol>
-      <ol>Cigna</ol>
-      <ol>Aetna</ol>
-      <ol>Other Major Insurances</ol>
-    
-  </div>
-</div>
-
-<div class="paragraphContainer">
-  <div class="largerText">
-    Patient Forms and Documents
-  </div>
-</div>
-
-<div class="paragraphContainer">
-  
-  <div class="paragraphNotCenter">
-    
-      <ol><a href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page_pdf.php">Welcome Letter</a></ol>
-      <ol><a href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page_pdf.php">Patient Intake Form</a></ol>
-      <ol><a href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page_pdf.php">Medical Information Release Form</a></ol>
-      <ol><a href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page_pdf.php">HIPAA Notice of Privacy Practices</a></ol>
-      
-    
-  </div>
+<div class = "paragraphContainer">
+  <div class="paragraphHeading">Congratulations!</div>
+  <div class="paragraph"> Thank you for trying to login to this site. You are actually on a website that is not a real business. This is a simulation.
+    Do not worry we did not save any of the information you entered into this form. Be safe out there! </div>
+  <div class="largerText">You have earned yourself stickers! You may click the stickers below to download them and use them on your zoom background.</div>
+  &nbsp;
+  <a href="../img/Rocky.png" download="sticker">
+    <img class = "stickers" src="../img/Rocky.png" alt="Bank sticker" width="300">
+  </a>
+  <a href="../img/TechSticker.png" download="sticker">
+    <img class = "stickers" src="../img/TechSticker.png" alt="Bank sticker" width="300">
+  </a>
 </div>
 
 <footer>

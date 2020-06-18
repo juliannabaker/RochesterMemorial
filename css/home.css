@@ -6,6 +6,11 @@ footer {
   color: white;
 }
 
+.stickers {
+  text-align: center;
+  margin: 5em;
+}
+
 .paragraphHeading {
   color: black;
   font-weight: lighter;

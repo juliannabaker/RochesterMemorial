@@ -10,6 +10,40 @@
   <!--My CSS -->
   <link rel="stylesheet" href="../css/home.css">
   <title>Rochester Memorial</title>
+  <style>
+    /*body {font-family: Arial, Helvetica, sans-serif;}*/
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    </style>
 </head>
 <body>
 
@@ -35,10 +69,10 @@
         <li class="nav-item">
           <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/ourProviders.php">Our Providers</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/resources.php">Resources</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/contact.php">Contact</a>
         </li>
       </ul>
@@ -47,49 +81,36 @@
 </nav>
 
 <div class="homeImg">
-  <img src="../img/resources_2.jpg" alt="doctors" width="100%;">
-  <div class="centered">Our Resources</div>
+  <img src="../img/Contact_Us.jpg" alt="doctors" width="100%;">
+  <div class="centered">Contact US</div>
 </div>
 
-<div class="paragraphContainer">
-  <div class="largerText">
-    Insurances Accepted
-  </div>
-</div>
+<div class="container ">
+  <form action="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<div class="paragraphContainer">
-  
-  <div class="paragraphNotCenter">
-    We would love to accept all significant commercial insurances as well as Medicare.
-    </br></br>
-    
-      <ol>Excellus and other Blue Cross Blue Shield plans</ol>
-      <ol>MVP</ol>
-      <ol>United Health</ol>
-      <ol>Cigna</ol>
-      <ol>Aetna</ol>
-      <ol>Other Major Insurances</ol>
-    
-  </div>
-</div>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-<div class="paragraphContainer">
-  <div class="largerText">
-    Patient Forms and Documents
-  </div>
-</div>
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="emailaddress" placeholder="example@doamin.com">
 
-<div class="paragraphContainer">
-  
-  <div class="paragraphNotCenter">
-    
-      <ol><a href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page_pdf.php">Welcome Letter</a></ol>
-      <ol><a href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page_pdf.php">Patient Intake Form</a></ol>
-      <ol><a href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page_pdf.php">Medical Information Release Form</a></ol>
-      <ol><a href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page_pdf.php">HIPAA Notice of Privacy Practices</a></ol>
-      
-    
-  </div>
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phonenumber" placeholder="(555)555-5555">
+
+    <label for="Service_Enquiry">Service Enquiry</label>
+    <select id="Service_Enquiry" name="Service_Enquiry">
+      <option value="Greater Rochester Internal Medicine">Rochester Memorial</option>
+      <option value="MDVIP Membership">Membership</option>
+      <option value="Other Inquiry">Other Inquiry</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" onclick="window.location.href = 'https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/action_page.php';">
+  </form>
 </div>
 
 <footer>
