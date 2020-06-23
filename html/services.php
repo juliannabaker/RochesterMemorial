@@ -24,22 +24,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/home.php">Home</a>
+          <a class="nav-link" href="home.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/aboutUs.php">About Us</a>
+          <a class="nav-link" href="aboutUs.php">About Us</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/services.php">Services</a>
+          <a class="nav-link" href="services.php">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/ourProviders.php">Our Providers</a>
+          <a class="nav-link" href="ourProviders.php">Our Providers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/resources.php">Resources</a>
+          <a class="nav-link" href="resources.php">Resources</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://people.rit.edu/jlb2886/Sites/RochesterMemorial/html/contact.php">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
     </div>
