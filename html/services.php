@@ -10,11 +10,46 @@
   <!--My CSS -->
   <link rel="stylesheet" href="../css/home.css">
   <title>Rochester Memorial</title>
+  <style>
+        /*body {font-family: Arial, Helvetica, sans-serif;}*/
+        * {box-sizing: border-box;}
+
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+
+        input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
+    <img class="logo img-fluid rounded mb-4 mb-lg-0" src="../img/RochesterMemLogo.png" alt="" width="75">
     <a class="navbar-brand" href="#">Rochester Memorial</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

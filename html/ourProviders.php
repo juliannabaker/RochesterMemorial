@@ -10,11 +10,46 @@
   <!--My CSS -->
   <link rel="stylesheet" href="../css/home.css">
   <title>Rochester Memorial</title>
+  <style>
+      /*body {font-family: Arial, Helvetica, sans-serif;}*/
+      * {box-sizing: border-box;}
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      </style>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
+    <img class="logo img-fluid rounded mb-4 mb-lg-0" src="../img/RochesterMemLogo.png" alt="" width="75">
     <a class="navbar-brand" href="#">Rochester Memorial</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,9 +99,9 @@
 </div>
 
 <div class="paragraphContainerNotCenter">
-  <img class = "img" src="../img/Bryce_Walker.jpg" alt="doctor" width="25%;">
+  <img class = "img" src="../img/Justin_Foley.jpg" alt="doctor" width="25%;">
   <div class="paragraphNotCenter">
-     Dr. Walker founded Rochester Memorial in 1946 and treated his patients there for over 20 years.
+     Dr. Walker founded Rochester Memorial in 1996 and treated his patients there for over 20 years.
      After a great service, Dr. Walker chose to shift the path of his practice and accepted the honor of being selected 
      as a senior physician. As a physician of medical practice allows him to continue caring for patients that desire 
      a deeper level of personal care, and is conveniently located across the hall from the main offices.</br></br>
@@ -81,7 +116,7 @@
 </div>
 
 <div class="paragraphContainerNotCenter">
-  <img class = "img" src="../img/Justin_Foley.jpg" alt="doctor" width="25%;">
+  <img class = "img" src="../img/Bryce_Walker.jpg" alt="doctor" width="25%;">
   <div class="paragraphNotCenter">
      Dr. Foley takes a special interest in emergency medical services (EMS) 
      and has served as an EMT, Paramedic, and volunteer firefighter in Western New York. 
